@@ -5,7 +5,7 @@
     --font-family: font-family: 'Raleway', sans-serif;; 
     --box-padding: 10px;
     --body-fontsize: 22px;
-
+--border-radius: 30px;
 
 }
 *{
@@ -15,8 +15,9 @@
     padding: var(--box-padding);
 }
 .photo-main{
-    width:100%;
+    width:20%;
     height: 520px;
+    border-radius: var(--border-radius);
 }
 body{
 background-color: var(--background-color);
