@@ -1,6 +1,6 @@
 :root{
-    --background-color: rgb(217, 217, 219);
-    --text-color: rgb(38, 67, 216);
+    --background-color: rgb(18, 18, 36);
+    --text-color: rgb(190, 195, 219);
     --line-height: 2rem;
     --font-family: font-family: 'Raleway', sans-serif;; 
     --box-padding: 10px;
@@ -14,10 +14,15 @@
     font-family: var(--font-family);
     padding: var(--box-padding);
 }
-.photo-main{
+#photo-main{
     width:300px;
     height: 350px;
     border-radius: 250px;
+   
+}
+.photo{
+    display: flex;
+    justify-content: center;
 }
 body{
 background-color: var(--background-color);
@@ -32,11 +37,18 @@ header {
     background-image: url(images/inspiration-unsplash.jpg);
     border-radius: var(--border-radius);
     background-size:cover;
+    height: 800px;
+    
 }
-nav ul {
+
+nav { 
     display: flex;
-    justify-content: flex-end;
-}
+    justify-content: center;
+     
+ } 
+
+    
+ 
 
 a {
     text-decoration: none;
@@ -53,6 +65,7 @@ a {
   .links {
     padding: 20px;
     transition: 0.25s;
+  
   }
   
   .links:hover {
