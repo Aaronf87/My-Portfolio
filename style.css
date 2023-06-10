@@ -83,3 +83,30 @@ a {
     border-radius: 5px;
   
   }
+  .box1, .box2, .box3 {
+    height: 150px;
+    width: 400px;
+    border-radius: var(--border-radius);
+    border: solid rgb(134, 169, 160) 5px;
+    background-size:cover;
+    font-size: var(--body-fontsize);
+    color: rgb(209, 59, 59);
+    text-align: center;
+    transition: 0.25s;
+  
+  }
+
+  .box1{
+    background-image: url(images/website-photo.jpg);
+
+  }
+  .box3{
+    background-image: url(images/01-html-css-git-homework-demo.png);
+
+  }
+
+  .box1:hover, .box2:hover , .box3:hover{
+    transform: scale(1.2);
+    text-decoration: overline;
+  
+  }
