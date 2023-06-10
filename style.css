@@ -13,6 +13,7 @@
     margin:auto 0;
     font-family: var(--font-family);
     padding: var(--box-padding);
+    
 }
 #photo-main{
     width:300px;
@@ -83,6 +84,15 @@ a {
     border-radius: 5px;
   
   }
+  .work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  h2{
+    text-align: center;
+  }
+  
   .box1, .box2, .box3 {
     height: 150px;
     width: 400px;
@@ -93,6 +103,7 @@ a {
     color: rgb(209, 59, 59);
     text-align: center;
     transition: 0.25s;
+    padding: var(--box-padding);
   
   }
 
@@ -106,7 +117,7 @@ a {
   }
 
   .box1:hover, .box2:hover , .box3:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     text-decoration: overline;
   
   }
