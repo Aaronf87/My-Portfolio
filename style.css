@@ -15,9 +15,9 @@
     padding: var(--box-padding);
 }
 .photo-main{
-    width:20%;
-    height: 520px;
-    border-radius: var(--border-radius);
+    width:300px;
+    height: 350px;
+    border-radius: 250px;
 }
 body{
 background-color: var(--background-color);
@@ -29,8 +29,9 @@ font-size: var(--body-fontsize);
 header {
     font-size: 24px;
     background-color: #1d455f;
-    background-image: url(images/download.jpg);
-
+    background-image: url(images/inspiration-unsplash.jpg);
+    border-radius: var(--border-radius);
+    background-size:cover;
 }
 nav ul {
     display: flex;
