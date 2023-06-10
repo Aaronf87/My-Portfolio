@@ -2,10 +2,11 @@
     --background-color: rgb(18, 18, 36);
     --text-color: rgb(190, 195, 219);
     --line-height: 2rem;
-    --font-family: font-family: 'Raleway', sans-serif;; 
+    --font-family:  'Raleway', "sans-serif"; 
     --box-padding: 10px;
     --body-fontsize: 22px;
 --border-radius: 30px;
+
 
 }
 *{
@@ -13,6 +14,8 @@
     margin:auto 0;
     font-family: var(--font-family);
     padding: var(--box-padding);
+    font-style: italic;
+    font-weight: 400;
     
 }
 #photo-main{
@@ -41,6 +44,7 @@ header {
     height: 800px;
     
 }
+
 
 nav { 
     display: flex;
