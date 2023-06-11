@@ -1,5 +1,18 @@
-# profile
-Acceptance Criteria
+# Profile Site 2023
+
+Hi there! 👋
+
+
+This is first attempt to create a personal profile and portfolio deployed site made in June 2023.
+
+Originally made as a project for school.  I was made from scratch using HTML and CSS. 💻
+
+
+I the future I plan on updated the profile site with inplemented functionallity using other programing languages.
+
+For this project my criteria was as follows:
+
+## Acceptance Criteria
 
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
@@ -18,6 +31,10 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-Link to my site below
+## Link to my site below
 
 https://aaronf87.github.io/profile/
+
+![alt text](images/Screen%20Shot%202023-06-11%20at%203.14.20%20PM.png)
+
+I have opened issues to address in the future also.💻
