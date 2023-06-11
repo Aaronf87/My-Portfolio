@@ -1,5 +1,5 @@
 :root{
-    --background-color: rgb(18, 18, 36);
+    --background-color: linear-gradient(rgb(15, 3, 3), rgba(11, 18, 80, 0.521), rgba(8, 0, 0, 0.603));
     --text-color: rgb(190, 195, 219);
     --line-height: 2rem;
     --font-family:  'Raleway', "sans-serif"; 
@@ -21,7 +21,10 @@
 #photo-main{
     width:300px;
     height: 350px;
-    border-radius: 250px;
+    border-radius: 50%;
+    border:6px solid whitesmoke;
+    padding: 0px;
+   
    
 }
 .photo{
@@ -29,7 +32,7 @@
     justify-content: center;
 }
 body{
-background-color: var(--background-color);
+background-image: var(--background-color);
 color: var(--text-color);
 line-height: var(--line-height);
 font-size: var(--body-fontsize);
@@ -42,6 +45,8 @@ header {
     border-radius: var(--border-radius);
     background-size:cover;
     height: 800px;
+   
+
     
 }
 
@@ -108,12 +113,14 @@ a {
     text-align: center;
     transition: 0.25s;
     padding: var(--box-padding);
-  
+    filter: grayscale();
+    transition: filter 0.2s ease-in-out;
+
   }
 
   .box1{
     background-image: url(images/website-photo.jpg);
-
+    
   }
   .box2{
 background-image: url(images/moc-image.png);
@@ -127,5 +134,8 @@ background-image: url(images/moc-image.png);
   .box1:hover, .box2:hover , .box3:hover{
     transform: scale(1.1);
     text-decoration: overline;
+    cursor:pointer;
+    filter:none;
+    
   
   }
