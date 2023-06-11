@@ -1,7 +1,7 @@
 
 /* root variable being applied? */
 :root{
-    --background-color: black;
+    --background-color: linear-gradient(black, brown);
     --line-height: 2rem;
     --font-family:  'Raleway', "sans-serif"; 
     --box-padding: 10px;
@@ -11,6 +11,7 @@
 
 
 }
+/* universal selector applied to the html */
 *{
     list-style: none;
     font-family: var(--font-family);
@@ -19,7 +20,7 @@
     font-weight: 400;
     
 }
-
+/* main photo adjusted */
 #photo-main{
     width:300px;
     height: 350px;
@@ -29,17 +30,22 @@
    
    
 }
+/* photo position in header */
 .photo{
     display: flex;
     justify-content: center;
 }
+
+/* website body appearance */
 body{
-background-color:  var(--background-color);
-color: var(--text-color);
-line-height: var(--line-height);
-font-size: var(--body-fontsize);
+    background-color:  var(--background-color);
+    color: var(--text-color);
+    line-height: var(--line-height);
+    font-size: var(--body-fontsize);
 
 }
+/* top header appearance and image set */
+
 header {
     font-size: 24px;
     background-color: #1d455f;
@@ -52,16 +58,14 @@ header {
     
 }
 
-
+/* Navigation position */
 nav { 
     display: flex;
     justify-content: center;
      
  } 
 
-    
- 
-
+/* anchor tags appearance and function */
 a {
     text-decoration: none;
     color: rgb(195, 199, 210);
@@ -87,6 +91,8 @@ a {
     text-decoration: overline;
   
   }
+
+  /* bottom button appearance */
   button {
     background-color: rgb(5, 6, 20);
     color: rgb(248, 237, 237);
@@ -101,7 +107,7 @@ a {
     width: 40%;
     padding:0;
   }
-
+/* work projects position below */
   .work{
     display: flex;
     flex-wrap: wrap;
@@ -133,15 +139,15 @@ a {
     
   }
   .box2{
-background-image: url(images/moc-image.png);
+    background-image: url(images/moc-image.png);
 
   }
   .box3{
     background-image: url(images/01-html-css-git-homework-demo.png);
 
   }
-
-  .box1:hover, .box2:hover , .box3:hover{
+   /* hover functionallity being applied to all boxes in projects section */
+  .box1:hover, .box2:hover, .box3:hover{
     transform: scale(1.1);
     text-decoration: overline;
     cursor:pointer;
