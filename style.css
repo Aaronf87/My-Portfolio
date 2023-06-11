@@ -43,7 +43,7 @@ font-size: var(--body-fontsize);
 header {
     font-size: 24px;
     background-color: #1d455f;
-    background-image: url(images/inspiration-unsplash.jpg);
+    background-image: url(images/neom-9hWJs7iblh8-unsplash.jpg);
     border-radius: var(--border-radius);
     background-size:cover;
     height: 800px;
@@ -67,6 +67,7 @@ a {
     color: rgb(195, 199, 210);
     font-size: larger;
     transition: 0.25s;
+
   }
   
   a:hover {
@@ -77,6 +78,7 @@ a {
   .links {
     padding: 20px;
     transition: 0.25s;
+    color:black;  
   
   }
   
