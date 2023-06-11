@@ -13,7 +13,6 @@
 }
 *{
     list-style: none;
-    margin:auto 0;
     font-family: var(--font-family);
     padding: var(--box-padding);
     font-style: italic;
@@ -96,6 +95,11 @@ a {
     border-radius: 5px;
   
   }
+  .hr{
+    width: 40%;
+    padding:0;
+  }
+
   .work{
     display: flex;
     flex-wrap: wrap;
