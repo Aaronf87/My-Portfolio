@@ -1,7 +1,7 @@
 
 /* root variable being applied? */
 :root{
-    --background-color: linear-gradient(black, brown);
+    --background-color: linear-gradient(black, rgba(62, 37, 37, 0.991), black);
     --line-height: 2rem;
     --font-family:  'Raleway', "sans-serif"; 
     --box-padding: 10px;
@@ -38,7 +38,7 @@
 
 /* website body appearance */
 body{
-    background-color:  var(--background-color);
+    background:  var(--background-color);
     color: var(--text-color);
     line-height: var(--line-height);
     font-size: var(--body-fontsize);
