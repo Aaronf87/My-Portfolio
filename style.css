@@ -15,9 +15,11 @@
 *{
     list-style: none;
     font-family: var(--font-family);
-    padding: var(--box-padding);
+    padding: 0;
     font-style: italic;
     font-weight: 400;
+    margin:0;
+
     
 }
 /* main photo adjusted */
@@ -48,14 +50,24 @@ body{
 
 header {
     font-size: 24px;
-    background-color: #1d455f;
+   
     background-image: url(images/neom-9hWJs7iblh8-unsplash.jpg);
     border-radius: var(--border-radius);
     background-size:cover;
     height: 800px;
+    padding: 10px
    
 
     
+}
+.about-me{
+    background-image: url(images/laptop.jpg);
+    background-size:cover;
+    height: 800px;
+    padding: 150px;
+}
+.projects{
+    padding:100px;
 }
 
 /* Navigation position */
@@ -103,11 +115,15 @@ a {
     border-radius: 5px;
   
   }
-  .hr{
-    width: 40%;
-    padding:0;
-  }
+ 
 /* work projects position below */
+  .projects{
+
+    background-image: url(images/red-white-light.jpg);
+    background-size:cover;
+    height: 800px;
+    padding: 150px;
+  }
   .work{
     display: flex;
     flex-wrap: wrap;
@@ -115,6 +131,7 @@ a {
   }
   h1, h2{
     text-align: center;
+    
   
   }
   
@@ -160,7 +177,8 @@ section .links{
  footer{
     height: 20em;
     display:flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
+    
   
  }
