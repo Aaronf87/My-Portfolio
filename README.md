@@ -5,7 +5,7 @@ Hi there! 👋
 
 This is first attempt to create a personal profile and portfolio deployed site made in June 2023.
 
-Originally made as a project for school.  I was made from scratch using HTML and CSS. 💻
+Originally made as a project for school.  It was made from scratch using HTML and CSS. 💻
 
 
 I the future I plan on updated the profile site with inplemented functionallity using other programing languages.
