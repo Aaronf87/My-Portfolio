@@ -63,7 +63,7 @@ header {
 .about-me{
     background-image: url(images/laptop.jpg);
     background-size:cover;
-    height: 800px;
+    height: 900px;
     padding: 150px;
 }
 .projects{
@@ -123,12 +123,12 @@ a {
     background-size:cover;
     height: 800px;
     padding: 150px;
-  }
-  .work{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
-  }
+    align-content: space-around;
+}
+  
   h1, h2{
     text-align: center;
     
