@@ -152,6 +152,15 @@ a {
     text-decoration: overline;
     cursor:pointer;
     filter:none;
-    
-  
   }
+section .links{
+    color:beige;
+    
+}
+ footer{
+    height: 20em;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+  
+ }
