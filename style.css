@@ -150,7 +150,7 @@ a {
     transition: filter 0.2s ease-in-out;
 
   }
-
+/* adding box images */
   .box1{
     background-image: url(images/website-photo.jpg);
     
@@ -182,6 +182,7 @@ section .links{
     
   
  }
+ /* resized the footer contact me logos */
  .logo{
  padding-top: 2rem;
   height: 100px;
