@@ -134,10 +134,10 @@ a {
     
   
   }
-  
+  /* box size and appearace */
   .box1, .box2, .box3 {
-    height: 150px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: var(--border-radius);
     border: solid rgb(134, 169, 160) 5px;
     background-size:cover;
@@ -183,6 +183,8 @@ section .links{
   
  }
  /* resized the footer contact me logos */
+ /* might add more links in the future */
+ /* might add hover to links */
  .logo{
  padding-top: 2rem;
   height: 100px;
