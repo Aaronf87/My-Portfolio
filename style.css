@@ -1,7 +1,7 @@
 
 /* root variable being applied? */
 :root{
-    --background-color: linear-gradient(black, rgba(62, 37, 37, 0.991), black);
+    --background-color:rgb(39, 38, 38);
     --line-height: 2rem;
     --font-family:  'Raleway', "sans-serif"; 
     --box-padding: 10px;
@@ -182,3 +182,11 @@ section .links{
     
   
  }
+ .logo{
+ padding-top: 2rem;
+  height: 100px;
+  width: 100px;
+ 
+  
+}  
+ 
