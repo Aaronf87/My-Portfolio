@@ -52,7 +52,6 @@ header {
     font-size: 24px;
    
     background-image: url(images/neom-9hWJs7iblh8-unsplash.jpg);
-    border-radius: var(--border-radius);
     background-size:cover;
     height: 800px;
     padding: 10px
@@ -131,6 +130,7 @@ a {
   
   h1, h2{
     text-align: center;
+    padding:20px;
     
   
   }
