@@ -26,7 +26,7 @@
 #photo-main{
     width:300px;
     height: 350px;
-    border-radius: 50%;
+    border-radius: 20px;
     border: 1px solid rgb(13, 1, 1);
     padding: 0px;
    
@@ -39,7 +39,7 @@
 }
 h1{
   font-size: 80px;
-  color:rgb(232, 228, 228);
+  color:rgb(27, 3, 3);
   margin-top: 20px;
   letter-spacing: 5px;
 
@@ -57,10 +57,10 @@ body{
 
 header {
     font-size: 24px;
-    background-image: url(images/neom-9hWJs7iblh8-unsplash.jpg);
+    background-image: url(images/joel-filipe-pfX-GsJMtDY-unsplash.jpg);
     background-size:cover;
     height: 800px;
-    padding: 10px
+    padding: 150px
      
 }
 /* background image and size */
@@ -78,7 +78,7 @@ header {
 /* Navigation position */
 nav { 
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
      
  } 
 
@@ -100,6 +100,7 @@ a {
     padding: 20px;
     transition: 0.25s;
     color:black;  
+    font-size: 50px;
   
   }
   
