@@ -16,6 +16,6 @@ For this project my criteria was as follows:
 
 https://aaronf87.github.io/profile/
 
-![alt text](images/Screen%20Shot%202023-06-11%20at%203.14.20%20PM.png)
+![alt text](images/07-2023.png)
 
 I have opened issues to address in the future also.💻
