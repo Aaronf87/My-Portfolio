@@ -19,3 +19,4 @@ https://aaronf87.github.io/profile/
 ![alt text](images/07-2023.png)
 
 I have opened issues to address in the future also.💻
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
