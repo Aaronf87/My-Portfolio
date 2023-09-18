@@ -5,10 +5,10 @@ Hi there! 👋
 
 This is first attempt to create a personal profile and portfolio deployed site made in June 2023.
 
-Originally made as a project for school.  It was made from scratch using HTML and Tailwind. 💻
+Originally made as a project for school. It was made from scratch using HTML and Tailwind. 💻
 
 
-I the future I plan on updated the profile site with inplemented functionallity using other programing languages.
+In the future I plan on updated the profile site with inplemented functionallity using other programing languages and new technologies 💻.
 
 For this project my criteria was as follows:
 
@@ -20,8 +20,6 @@ https://aaronf87.github.io/profile/
 
 
 ![alt text](images/site.png)
-
-I have plans to update the site as I continue to learn new technologies.💻
 
 
 # Questions
