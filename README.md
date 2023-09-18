@@ -1,25 +1,29 @@
-# Profile Site 2023
+# My Portfolio 2023
 
 Hi there! 👋
 
 
 This is first attempt to create a personal profile and portfolio deployed site made in June 2023.
 
-Originally made as a project for school.  It was made from scratch using HTML and CSS. 💻
+Originally made as a project for school.  It was made from scratch using HTML and Tailwind. 💻
 
 
 I the future I plan on updated the profile site with inplemented functionallity using other programing languages.
 
 For this project my criteria was as follows:
 
-## Link to my site below
+## Link to my site
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
 
 https://aaronf87.github.io/profile/
 
 
-![alt text](<img width="1175" alt="Screenshot 2023-09-17 at 11 01 44 PM" src="https://github.com/Aaronf87/profile/assets/97806359/bd174aec-fd92-4b4a-adee-0aea7ae3e665">)
+![alt text](images/site.png)
 
-I have opened issues to address in the future also.💻
+I have plans to update the site as I continue to learn new technologies.💻
 
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+# Questions
+
+If you have any questions feel free to contact via email at aaron_flores08@yahoo.com
