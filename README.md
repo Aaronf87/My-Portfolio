@@ -1,4 +1,4 @@
-# My Portfolio 2023
+# My Portfolio
 
 Hi there! 👋
 
