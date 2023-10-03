@@ -14,7 +14,7 @@ In the future, I plan on updated the profile site with inplemented functionallit
 
 ## Link to my site
 
-https://aaronf87.github.io/profile/
+ https://aaronf87.github.io/My-Portfolio/
 
 
 ![alt text](images/site.png)
